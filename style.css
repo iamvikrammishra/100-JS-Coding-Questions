@@ -9,7 +9,7 @@
   body {
     font-family: 'Poppins', Arial, sans-serif;
     line-height: 1.6;
-    background: linear-gradient(145deg, #888684, #3572a4);
+    background: linear-gradient(145deg, #151e01, #8b80b7);
     color: #0a0909da;
     display: flex;
     justify-content: center;
@@ -20,7 +20,7 @@
   
   /* Container Styling */
   .container {
-    background: #dcd5d5;
+    background: #81a57a;
     border-radius: 16px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
     padding: 30px;
@@ -36,7 +36,12 @@
   
   h1 {
     font-size: 2rem;
-    color: #1caee7;
+    color: #830f20;
+    margin-bottom: 10px;
+  }
+  h3 {
+    font-size: 1.5rem;
+    color: #070001;
     margin-bottom: 10px;
   }
   
@@ -90,6 +95,9 @@
     content: "📘";
     margin-right: 10px;
     font-size: 1.5rem;
+  }
+  .down {
+    text-decoration: line-through;
   }
   
   /* Responsive Design */
